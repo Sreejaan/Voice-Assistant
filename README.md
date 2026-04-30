@@ -4,11 +4,11 @@ This project demonstrates how to build a conversational voice assistant by integ
 
 ---
 
-## ## Overview
+## Overview
 
 With this application, users can dial a Twilio phone number and communicate with an AI-powered assistant driven by OpenAI’s **GPT-4o-mini** model. The assistant processes spoken input and replies naturally, creating a seamless conversational experience.
 
-## ## Requirements
+## Requirements
 
 Before getting started, ensure you have the following:
 
@@ -19,7 +19,7 @@ Before getting started, ensure you have the following:
 
 ---
 
-## ## Setup Instructions
+## Setup Instructions
 
 1.  **Clone the project repository** to your local machine.  
 2.  **Install all necessary dependencies** using:
@@ -36,7 +36,7 @@ Before getting started, ensure you have the following:
 
 ---
 
-## ## Running the Application
+## Running the Application
 
 1.  **Launch ngrok** to expose your local server:
     ```bash
@@ -53,7 +53,7 @@ Before getting started, ensure you have the following:
 
 ---
 
-## ## Workflow Explanation
+## Workflow Explanation
 
 1.  **Incoming Call:** When a call is made to the Twilio number, Twilio requests instructions from the `/twiml` endpoint.
 2.  **Connection:** The response directs Twilio to establish a WebSocket connection at `/ws`.
@@ -65,7 +65,7 @@ Before getting started, ensure you have the following:
 
 ---
 
-## ## File Structure
+## File Structure
 
 *   `main.py`: Contains the FastAPI application, WebSocket logic, and OpenAI integration.
 *   `requirements.txt`: Lists all Python dependencies required for the project.
